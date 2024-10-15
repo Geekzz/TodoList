@@ -1,0 +1,38 @@
+body, html {
+    background-color:whitesmoke;
+    font-family: monospace;
+}
+
+.wrapper {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.input-group {
+    width: 50%;
+    margin: auto;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.purchased {
+    background-color: #d4edda; /* Grön bakgrund för inköpta varor */
+}
+
+.deleted {
+    display: none; /* Döljer borttagna varor */
+}
+
+.list-group-item {
+    margin-bottom: 10px; /* Justera värdet för mer eller mindre avstånd */
+}
+
+@media only screen and (max-width: 600px){
+    .input-group {
+        width: 100%;
+    }
+}
